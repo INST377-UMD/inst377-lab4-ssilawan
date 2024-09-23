@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    background-color: blueviolet;
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
